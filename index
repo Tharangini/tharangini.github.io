@@ -1,0 +1,85 @@
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+    $(function(){
+        $('a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active'); $(this).parents('navbar').addClass('active');
+            }
+        });
+    });
+</script>
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>About | Ulyana Piterbarg</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="About" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://upiterbarg.github.io/" />
+<meta property="og:url" content="https://upiterbarg.github.io/" />
+<meta property="og:site_name" content="Ulyana Piterbarg" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="About" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","headline":"About","name":"Ulyana Piterbarg","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://upiterbarg.github.io/assets/img/profile.jpg"}},"url":"https://upiterbarg.github.io/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=19c56430dae9f068c39678ce660a302362d519ab">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+  </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144023591-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-144023591-1');
+    </script>
+</head>
+  <body style="background-image:url('/assets/img/neurons3.png')">
+    <div class="wrapper">
+      <div class="header">
+        <img src="/assets/img/profile.jpg" alt="Ulyana Piterbarg"/>
+        <h1> Ulyana Piterbarg </h1>
+        <p>
+          up2021 [at] cims.nyu.edu
+        </p>
+        <p> 
+          [<a href=https://twitter.com/ulyanapiterbarg>Twitter</a>]  [<a href=https://scholar.google.com/citations?user=I5lFCusAAAAJ&hl=en>Google Scholar</a>]
+          [<a href=https://github.com/upiterbarg>Github</a>]
+          [<a href=assets/docs/CV.pdf>CV</a>]
+        </p>
+        <div class="navbar">
+          <a class="active" href="/"> About </a> <a href="/projects"> Projects </a> <a href="/teaching"> Teaching </a> <a href="/reads"> Reads </a>
+        </div>
+      </div>
+      <div class="content">
+        <h2 id="about">About</h2>
+
+<p>I’m a Ph.D. student in the <a href="https://wp.nyu.edu/cilvr/">CILVR lab</a> at <a href="https://cims.nyu.edu/dynamic/">NYU Courant</a>, co-advised by <a href="https://cs.nyu.edu/~fergus/pmwiki/pmwiki.php">Rob Fergus</a> and <a href="https://www.lerrelpinto.com/">Lerrel Pinto</a>. I’m fortunate to be supported by a <a href="https://www.deepmind.com/scholarships">DeepMind Ph.D. Scholarship</a> and an <a href="https://www.nsfgrfp.org/resources/about-grfp/">NSF Graduate Research Fellowship</a>.</p>
+
+<p>My core interest is in developing algorithms that enable AI agents to flexibly learn behaviors and concepts through ego-centric interaction and with minimal human intervention. To that end, my work touches on imitation, self-supervision, generative models, and reinforcement learning. I’m also broadly interested in differentiable computing and in ML for physical modeling.</p>
+
+<p>Previously, I majored in <a href="https://math.mit.edu/academics/undergrad/major/course18c.php">course 18C</a> at MIT. During my undergrad, I did research on the cognitive bases of physical strategy learning in humans with the MIT Computational Cognitive Science Group, advised by <a href="https://web.mit.edu/krallen/www/">Kelsey R. Allen</a> and <a href="https://mitibmwatsonailab.mit.edu/people/joshua-tenenbaum/">Josh Tenenbaum</a>, and on neural partial differential equations for accelerating climate models with the  <a href="https://clima.caltech.edu/">Climate Modeling Alliance</a>, advised by <a href="https://sandreza.github.io/">Andre N. Souza</a> and <a href="http://ferrari.mit.edu/">Raffaele Ferrari</a>. I also spent wonderful summers as a <a href="https://www.epfl.ch/schools/sv/education/summer-research-program/">SV SRP</a> student in <a href="https://lcnwww.epfl.ch/gerstner/">Wulfram Gerstner</a>’s group at EPFL and as a Ph.D. research intern in the <a href="https://research.google/teams/applied-science/">Applied Science team</a> at Google Research.</p>
+
+      </div>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>

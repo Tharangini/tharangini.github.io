@@ -1,0 +1,87 @@
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+    $(function(){
+        $('a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active'); $(this).parents('navbar').addClass('active');
+            }
+        });
+    });
+</script>
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Teaching | Ulyana Piterbarg</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Teaching" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://upiterbarg.github.io/teaching.html" />
+<meta property="og:url" content="https://upiterbarg.github.io/teaching.html" />
+<meta property="og:site_name" content="Ulyana Piterbarg" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Teaching" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Teaching","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://upiterbarg.github.io/assets/img/profile.jpg"}},"url":"https://upiterbarg.github.io/teaching.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=19c56430dae9f068c39678ce660a302362d519ab">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+
+    <style type="text/css">
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144023591-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-144023591-1');
+    </script>
+  </head>
+  <body style="background-image:url('/assets/img/neurons3.png')">
+    <div class="wrapper">
+      <div class="header">
+        <img src="/assets/img/profile.jpg" alt="Ulyana Piterbarg"/>
+        <h1> Ulyana Piterbarg </h1>
+        <p>
+          up2021 [at] cims.nyu.edu
+        </p>
+        <p> 
+          [<a href=https://twitter.com/ulyanapiterbarg>Twitter</a>]  [<a href=https://scholar.google.com/citations?user=I5lFCusAAAAJ&hl=en>Google Scholar</a>]
+          [<a href=https://github.com/upiterbarg>Github</a>]
+          [<a href=assets/docs/CV.pdf>CV</a>]
+        </p>
+        <div class="navbar">
+          <a href="/"> About </a> <a href="/projects"> Projects </a> <a class="active" href="/teaching"> Teaching </a> <a href="/reads"> Reads </a>
+        </div>
+      </div>
+      <div class="content">
+        <h2 id="teaching">Teaching</h2>
+
+<ul>
+  <li><b> Special Topics: Introduction to Robot Intelligence</b> @ NYU (Spring 2023 - TA).</li>
+  <li><b> Seminar in Analysis</b> @ MIT (Spring 2021 - TA).</li>
+  <li><b> Computational Cognitive Science</b> @ MIT (Fall 2019 - UTA).</li>
+</ul>
+
+      </div>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>
